@@ -1,0 +1,24 @@
+{
+  "name": "jspractice",
+  "version": "1.0.0",
+  "description": "This is a movie app.",
+  "browserslist": [
+    "last 3 Chrome versions"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "production": "parcel build src/index.html"
+  },
+  "author": "Suryasnata Saha",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.6",
+    "D": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
